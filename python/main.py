@@ -3,7 +3,7 @@ import os,socket
 
 app = Flask(__name__)
 
-ENV = os.getenv("ENV_VALUE","No env set")
+ENV = os.getenv("ENV_VALUE"," No env set")
 HOSTNAME = socket.gethostname()
 
 @app.get("/")
