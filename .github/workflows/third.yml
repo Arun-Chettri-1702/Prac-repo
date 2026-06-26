@@ -107,6 +107,6 @@ jobs:
           echo "Simulating failure for debugging..."
           exit 1
 
-      - name: Failure Handler
-        if: failure()
-        run: echo "Pipeline failed. Check logs above!"
+    #   - name: Failure Handler
+    #     if: failure()
+    #     run: echo "Pipeline failed. Check logs above!"
