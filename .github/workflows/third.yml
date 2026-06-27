@@ -1,10 +1,10 @@
 name: Real Dev CI Demo (Echo Only)
 
 on:
-  push:
-    branches: ['main']
-  pull_request:
-    branches: ['main']
+  # push:
+  #   branches: ['main']
+  # pull_request:
+  #   branches: ['main']
   workflow_dispatch:
 
 jobs:
@@ -109,4 +109,4 @@ jobs:
 
     #   - name: Failure Handler
     #     if: failure()
-    #     run: echo "Pipeline failed. Check logs above!"
+    #     run: echo "Pipeline failed. Check logs above!" 
