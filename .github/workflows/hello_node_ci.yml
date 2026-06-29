@@ -40,7 +40,7 @@ jobs:
             -   name: Build and push docker image
                 uses: docker/build-push-action@v7
                 with:
-                    context: node                   `` 
+                    context: node
                     push: true
                     tags: |
                         ${{ secrets.DOCKERHUB_USERNAME }}/hello-node:stable
