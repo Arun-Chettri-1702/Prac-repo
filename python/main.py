@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 ENV = os.getenv("ENV_VALUE","No env set")
 HOSTNAME = socket.gethostname()
-
+print("Hello")
 @app.get("/")
 def hello():
     return jsonify({
